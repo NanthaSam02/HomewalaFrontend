@@ -1,0 +1,19 @@
+import { api } from '../axiosConfig';
+
+export const submitInteriorEnquiry = async (enquiryData) => {
+  try {
+    const response = await api.post('/interior-enquiries', enquiryData);
+    return response;
+  } catch (error) {
+    console.error('Error submitting interior enquiry:', error);
+    throw error;
+  }
+};
+export const transformFormDataForAPI = (formData) => {
+  return {
+    name: formData.name,
+    propertyname: formData.propertyType || 'Interior Design Enquiry',
+    email: formData.email,
+    mobilenumber: formData.phone,
+    description: formData.message || 'Interior design consultation request',};
+};

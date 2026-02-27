@@ -1,0 +1,40 @@
+/* Ensuring correct bullet point spacing */
+.rich-text-container ul {
+    list-style-type: disc;
+    /* Ensures bullet points appear */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rich-text-container ol {
+    list-style-type: decimal;
+    /* Ensures numbered lists appear */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Fixing Table Formatting */
+.rich-text-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rich-text-container th,
+.rich-text-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.rich-text-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.rich-text-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

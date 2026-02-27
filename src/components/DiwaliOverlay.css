@@ -1,0 +1,7 @@
+#diwali-fireworks {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; /* on top of everything */
+  pointer-events: none; /* don’t block clicks */
+}

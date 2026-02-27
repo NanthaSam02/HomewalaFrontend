@@ -1,0 +1,265 @@
+/* custome css start*/
+.border-radius-5 {
+  border-radius: 14px;
+}
+.z-99999{
+    z-index: 99999;
+}
+@keyframes underline {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+.iconcsm-width{
+    width: 20px;
+    height: 20px;
+}
+.sign-in {
+    background: #08a7f3;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 7px;
+}
+.free-btn{
+    display: inline-block;
+    font-size: 10px;
+    color: #303030;
+    height: 16px;
+    padding: 0 8px;
+    border-radius: 8px;
+    background-color: #FFC72C;
+    margin-left: 4px;   
+}
+.gmap-container .google-map {
+    border-radius: 15px;
+}
+.ring-blue-one{
+   padding: 0px;
+    border: solid 1px #08a7f3;
+    border-top: solid 4px #08a7f3;
+    cursor: pointer;
+    border-radius: 8px;
+}
+span.userlogin-icon {
+    padding-right: 5px;
+    margin-top: 2px;    
+    filter: brightness(0) invert(1);
+}
+.post-property-btn {
+    color:#0c064c;
+}
+.search-pading input#search-input {
+    padding: 0px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* custome css END*/
+
+@media only screen and (max-width: 1366px) {
+    .navbar-header {
+        padding: 15px 50px;
+    }
+
+    .banner-section {
+        padding: 20px 50px 0px 50px;
+    }
+
+    .elite-projects-container {
+        padding: 0px 50px;
+        /* margin-top: -170px; */
+    }
+
+    .new-launched {
+        padding: 50px;
+    }
+
+    .home-interior {
+        padding: 50px 50px 10px;
+    }
+
+    .why-choose {
+        padding: 50px;
+    }
+
+    .sec-space-50 {
+        padding: 50px;
+    }
+
+    .news-article {
+        padding: 50px;
+    }
+
+    .footer-tab-content {
+        padding: 30px 50px 36px;
+    }
+
+    .banner-wrapper,
+    .banner-img {
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-header {
+        padding: 15px 30px;
+    }
+
+    .banner-section {
+        padding: 20px 30px 0px;
+    }
+
+    .elite-projects-container {
+        padding: 0px 30px;
+        /* margin-top: -170px; */
+    }
+
+    .new-launched {
+        padding: 50px 30px;
+    }
+
+    .home-interior {
+        padding: 50px 30px 10px;
+    }
+
+    .why-choose {
+        padding: 50px 30px 0px;
+        width: 100%;
+    }
+
+    .sec-space-50 {
+        padding: 50px 30px;
+    }
+
+    .news-article {
+        padding: 50px 30px;
+    }
+
+    .footer-tab-content {
+        padding: 30px 30px 36px;
+    }
+
+    .banner-wrapper,
+    .banner-img {
+        height: 100% !important;
+    }
+}
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .elite-projects-container {
+        margin: 0px;
+        padding: 30px 15px;
+    }
+     .backtopbtn {
+        display:none;
+     }
+
+    .banner-search {
+        bottom: 0px;
+        padding: 0px 20px 0px;
+
+    }
+
+    .banner-section {
+        padding: 20px 20px 0px;
+    }
+
+    .elite-heading {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .elite-slide {
+        padding: 0px;
+    }
+
+    .elite-arrow {
+       top: 78%;
+        justify-content: space-between;
+        right: -5px;
+        width: 96%;
+    }
+
+    .navbar-header {
+        padding: 20px;
+    }
+
+    .new-launched {
+        padding: 30px 20px;
+    }
+
+    .home-interior {
+        padding: 30px 20px 10px;
+    }
+
+    .why-choose {
+        padding: 30px 20px 0px;
+    }
+
+    .form-modal-page .form-left {
+        width: 100%;
+    }
+
+    .form-modal-page .form-right {
+        display: none;
+    }
+
+    .footer-tab button {
+        font-size: 12px;
+        display: none;
+    }
+
+    .footer-active {
+        display: block;
+    }
+
+    .footer-bottom-nav {
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .backtopbtn {
+        bottom: 80px;
+        right: 20px;
+    }
+
+    .detail-page-filter {
+        flex-wrap: wrap;
+    }
+
+    .header-logo img {
+        width: 130px;
+    }
+
+    .regis-link {
+        font-size: 14px;
+        margin: 0px !important;
+    }
+
+    .header-bar {
+       line-height: 0px;
+    }
+
+    .project-detail-tab{
+        top: 75px;
+    }
+}

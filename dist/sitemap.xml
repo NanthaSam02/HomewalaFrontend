@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://homewala.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://homewala.com/apartments-in-chennai</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/villas-in-chennai</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/plots-in-chennai</loc>
+    <priority>1.0</priority>
+  </url>
+<url>
+    <loc>https://homewala.com/best-deals</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/properties-for-sale-in-chennai</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/nri-investment</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/interior</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://homewala.com/blogs</loc>
+    <priority>0.6</priority>
+  </url>
+
+<url>
+    <loc>https://homewala.com/best-location-picks</loc>
+    <priority>0.6</priority>
+  </url>
+<url>
+    <loc>https://homewala.com/luxury-homes-in-chennai</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>

@@ -1,0 +1,175 @@
+/* Container for the suggestions dropdown */
+.pac-container {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  z-index: 1000; /* Ensure it appears above other elements */
+  max-height: 200px; /* Limit height to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrollbar */
+  border: 1px solid #e0e0e0; /* Add a subtle border */
+}
+
+/* Custom scrollbar styling */
+.pac-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.pac-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+  border-radius: 8px;
+}
+
+.pac-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 8px;
+}
+
+.pac-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+/* Individual suggestion items */
+.pac-item {
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Hover effect */
+.pac-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Highlighted text in suggestions */
+.pac-item-query {
+  font-weight: 600;
+  color: #0078db; /* Match your theme color */
+}
+
+/* Secondary text (e.g., address details) */
+.pac-item > span:nth-child(3) {
+  font-size: 12px;
+  color: #666666;
+  margin-left: 4px;
+}
+
+/* Icon alignment (if any icons are present, like in the screenshot) */
+.pac-icon {
+  margin-right: 8px;
+}
+/* Second Banner Styling */
+@media (max-width: 640px) {
+  section img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+}
+
+.backtopbtn {
+  bottom: calc(20px + env(safe-area-inset-bottom)); /* for iPhones with notch */
+}
+.main-banner-section {
+  position: relative;
+}
+
+/* ❌ Hide Santa on ALL screens first */
+.santa-wrapper {
+  display: none !important;
+}
+
+/* 🟢 Show Santa ONLY on normal PC screens (1024px → 1600px) */
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .santa-wrapper {
+    display: block !important;
+    position: absolute;
+    top: -95px;
+    left: -70px;
+    width: 360px;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .santa-gif {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+
+/* 🟢 Mobile only — Fix Arrow Position */
+@media (max-width: 768px) {
+  .elite-arrow button:last-child {   /* RIGHT ARROW */
+    margin-right: 5px !important;    /* Fully visible */
+  }
+
+  .elite-arrow button:first-child {  /* LEFT ARROW */
+    margin-left: 5px !important;
+  }
+
+  .elite-arrow {
+    top: 70% !important; /* Adjust vertical position if needed */
+  }
+}
+
+/* DESKTOP (Laptop / Large screens) */
+@media (min-width: 1024px) {
+  .banner-search {
+    bottom: 2000px !important;  /* search box + tabs proper center */
+  }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner-search {
+    bottom: 70px !important;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .banner-search {
+    bottom: 35px !important;  /* remove big gap */
+  }
+}
+
+/* 🟢 SEARCH BAR POSITION FIX */
+@media (min-width: 1024px) {   /* PC / Laptop */
+  .banner-search {
+    bottom: 80px !important;   /* PC ku correct gap */
+  }
+
+  .deal-section-fix {
+    margin-top: -10px !important; /* PC la banner NOT touching search */
+  }
+}
+
+@media (max-width: 768px) {   /* Mobile */
+  .banner-search {
+    bottom: 20px !important;   /* Mobile gap */
+  }
+
+  .deal-section-fix {
+    margin-top: 20px !important; /* Mobile la gap reduce */
+  }
+}
+/* 🟢 BUTTON GROUP SPACING FIX */
+@media (min-width: 1024px) {  /* PC */
+  .top-tabs-wrapper {
+    margin-bottom: 0px !important; /* reduce gap */
+  }
+}
+
+body {
+  overflow-x: hidden !important;
+}
+.dual-banner-section {
+  overflow-x: hidden !important;
+  position: relative;
+}
