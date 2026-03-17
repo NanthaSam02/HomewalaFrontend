@@ -359,10 +359,10 @@ const MapView = () => {
                 key={id}
                 lat={parseFloat(lat)}
                 lng={parseFloat(lng)}
-                onClick={() => {
-                  mapRef.current.map.setCenter({ lat: parseFloat(lat), lng: parseFloat(lng) })
-                  navigate("/details", { state: id })
-                }}
+               onClick={() => {
+  mapRef.current.map.setCenter({ lat: parseFloat(lat), lng: parseFloat(lng) })
+  navigate(`/property/${id}`)
+}}
                 className="flex flex-col items-center text-center cursor-pointer font-bold"
               >
                 <TiHome

@@ -989,7 +989,7 @@ const DetailsPage = () => {
               <div className="flex justify-between items-center px-4">
                 <h2 className="font-bold mb-4">Similar Properties</h2>
                 <h2
-                  onClick={() => navigate("/list-view")}
+                  onClick={() => navigate("/properties-for-sale-in-chennai")}
                   className="font-bold mb-4 cursor-pointer flex justify-center items-center gap-2"
                 >
                   View all <FaFastForward />

@@ -1758,7 +1758,7 @@ useEffect(() => {
               <div className="flex justify-between items-center px-0">
                 <h2 className="font-medium mb-0">Similar Properties</h2>
                 <h2
-                  onClick={() => navigate("/list-view")}
+                  onClick={() => navigate("/properties-for-sale-in-chennai")}
                   className="font-medium mb-0 cursor-pointer flex justify-center items-center gap-2"
                 >
                   View all <FaFastForward />
